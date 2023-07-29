@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <form action="results.html" method="GET">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="fullname" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder=" eg. kkhp3@nddd..." required>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="100">
+    </div>
+    <div>
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date" id="date" min="30-July-2005" required>
+    </div>
+   <div>
+    <h4>Favorite Food</h4>
+        <div>
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana">
+        </div>
+        <div>
+            <label for="apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple">
+        </div>
+        
+        <div>
+            <label for="mango">Mango</label>
+            <input type="checkbox" name="Mango" id="mango">
+        </div>
+    </div>
+    <div>
+        <h4>Gender</h4>
+        <div>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+        </div>
+        <div>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender" value="Female">
+        </div>
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="Password" placeholder="enter password">
+    </div>
+   
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+    
+   </form> 
+</body>
+</html>
